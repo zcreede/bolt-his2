@@ -1,0 +1,362 @@
+{
+  "common": {
+    "search": "Search",
+    "filter": "Filters",
+    "clear": "Clear",
+    "edit": "Edit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "create": "Create",
+    "submit": "Submit",
+    "status": "Status",
+    "type": "Type",
+    "date": "Date",
+    "time": "Time",
+    "notes": "Notes",
+    "actions": "Actions",
+    "viewAll": "View All",
+    "download": "Download",
+    "active": "Active",
+    "inactive": "Inactive",
+    "onLeave": "On Leave"
+  },
+  "appointments": {
+    "title": "Appointments",
+    "subtitle": "Manage patient appointments and scheduling",
+    "new": "New Appointment",
+    "search": "Search appointments...",
+    "noResults": "No appointments found",
+    "noResultsDesc": "No appointments matching your search criteria were found",
+    "schedule": {
+      "title": "Schedule Appointment",
+      "selectPatient": "Select Patient",
+      "selectDoctor": "Select Doctor",
+      "appointmentType": {
+        "regular": "Regular Visit",
+        "followup": "Follow-up",
+        "emergency": "Emergency"
+      },
+      "addNotes": "Add appointment notes..."
+    },
+    "status": {
+      "scheduled": "Scheduled",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "inprogress": "In Progress"
+    },
+    "details": {
+      "title": "Appointment Details",
+      "patient": "Patient",
+      "doctor": "Doctor",
+      "department": "Department",
+      "reason": "Reason",
+      "notes": "Notes"
+    },
+    "cancel": {
+      "title": "Cancel Appointment",
+      "confirmation": "Are you sure you want to cancel this appointment?"
+    },
+    "registration": {
+      "title": "Registration",
+      "today": "Today's Registration",
+      "advance": "Advance Registration",
+      "selectDepartment": "Select Department",
+      "availableSlots": "Available Slots",
+      "noSlots": "No available slots",
+      "register": "Register",
+      "book": "Book"
+    }
+  },
+  "queue": {
+    "management": {
+      "title": "Queue Management",
+      "subtitle": "Manage patient queues and waiting lists",
+      "search": "Search queue...",
+      "addToQueue": "Add to Queue",
+      "openDisplay": "Open Display"
+    },
+    "display": {
+      "title": "Queue Display",
+      "department": "{name} Department",
+      "nowServing": "Now Serving",
+      "waiting": "Waiting List",
+      "pleaseEnter": "Please enter when your number is called",
+      "notice": "Please pay attention to your queue number and be ready when called",
+      "normalQueue": "Regular Queue",
+      "returnQueue": "Return Visit Queue"
+    },
+    "stats": {
+      "total": "Total Patients",
+      "waiting": "Waiting",
+      "completed": "Completed"
+    },
+    "status": {
+      "waiting": "Waiting",
+      "called": "Called",
+      "inProgress": "In Progress",
+      "examination": "In Examination",
+      "completed": "Completed"
+    },
+    "type": {
+      "normal": "Regular Visit",
+      "return": "Return Visit"
+    },
+    "list": {
+      "number": "Queue Number",
+      "patient": "Patient",
+      "type": "Visit Type",
+      "doctor": "Doctor",
+      "status": "Status",
+      "time": "Time",
+      "actions": "Actions"
+    }
+  },
+  "inpatients": {
+    "title": "Inpatient Management",
+    "subtitle": "Manage hospitalized patients and ward assignments",
+    "new": "New Admission",
+    "edit": "Edit Patient",
+    "search": "Search inpatients...",
+    "noResults": "No inpatients found",
+    "noResultsDesc": "No inpatients matching your search criteria were found",
+    "status": {
+      "admitted": "Admitted",
+      "discharged": "Discharged",
+      "transferred": "Transferred",
+      "critical": "Critical"
+    },
+    "admissionType": {
+      "emergency": "Emergency",
+      "planned": "Planned",
+      "transfer": "Transfer"
+    },
+    "form": {
+      "patient": "Patient",
+      "selectPatient": "Select Patient",
+      "admittingDoctor": "Admitting Doctor",
+      "selectDoctor": "Select Doctor",
+      "admissionDate": "Admission Date",
+      "admissionTime": "Admission Time",
+      "ward": "Ward",
+      "selectWard": "Select Ward",
+      "bedNumber": "Bed Number",
+      "diagnosis": "Diagnosis",
+      "expectedStayDuration": "Expected Stay Duration",
+      "notes": "Notes"
+    },
+    "actions": {
+      "discharge": "Discharge",
+      "transfer": "Transfer"
+    },
+    "details": {
+      "expectedStay": "Expected Stay",
+      "currentStay": "Current Stay", 
+      "days": "days",
+      "diagnosis": "Diagnosis",
+      "age": "years",
+      "bed": "Bed",
+      "department": "Department",
+      "treatmentResponse": "Treatment Response"
+    }
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "patients": "Patients",
+    "appointments": "Appointments",
+    "medicalRecords": "Medical Records",
+    "departments": "Departments",
+    "doctors": "Doctors",
+    "schedules": "Schedules",
+    "billing": "Billing",
+    "pharmacy": "Pharmacy",
+    "laboratory": "Laboratory",
+    "settings": "Settings",
+    "logout": "Logout",
+    "mainMenu": "Main Menu",
+    "inpatients": "Inpatient",
+    "beds": ""
+  },
+"patients": {
+    "title": "Patient Management",
+    "subtitle": "Manage patient information and medical records",
+    "new": "Add Patient",
+    "edit": "Edit Patient",
+    "search": "Search by name or ID...",
+    "noResults": "No patients found",
+    "noResultsDesc": "No patients matching your search criteria were found",
+    "age": "years",
+    "lastVisit": "Last Visit",
+    "viewDetails": "View Details",
+    "schedule": "Schedule",
+    "register": "Register",
+    "startConsultation": "Start Consultation",
+    "gender": {
+      "title": "Gender",
+      "male": "Male",
+      "female": "Female"
+    },
+    "addNew": {
+      "title": "Add New Patient",
+      "name": "Name",
+      "gender": "Gender",
+      "dateOfBirth": "Date of Birth",
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address",
+      "medicalHistory": "Medical History",
+      "allergies": "Allergies",
+      "uploadImage": "Click or drag image here",
+      "dropImage": "Drop image here"
+    },
+    "details": {
+      "basicInfo": "Basic Information",
+      "medicalInfo": "Medical Information",
+      "upcomingAppointments": "Upcoming Appointments",
+      "recentRecords": "Recent Records",
+      "noMedicalHistory": "No medical history recorded",
+      "noAllergies": "No allergies recorded",
+      "noUpcomingAppointments": "No upcoming appointments",
+      "noRecentRecords": "No recent medical records",
+      "with": "with",
+      "by": "by"
+    },
+    "delete": {
+      "title": "Delete Patient",
+      "confirmation": "Are you sure you want to delete {name}'s record? This action cannot be undone."
+    },
+    "registration": {
+      "title": "Patient Registration",
+      "today": "Today's Registration",
+      "appointment": "Advance Registration",
+      "selectDepartment": "Select Department",
+      "availableSlots": "Available Slots",
+      "register": "Register",
+      "makeAppointment": "Make Appointment",
+      "noSlots": "No available slots"
+    },
+    "consultation": {
+      "title": "Start Consultation",
+      "selectType": "Select Consultation Type",
+      "newVisit": {
+        "title": "New Visit",
+        "description": "First time visit"
+      },
+      "returnVisit": {
+        "title": "Return Visit",
+        "description": "Follow-up visit"
+      }
+    }
+  },
+  "departments": {
+    "title": "Department Management",
+    "subtitle": "Manage hospital departments and resources",
+    "new": "New Department",
+    "search": "Search departments...",
+    "noResults": "No departments found",
+    "noResultsDesc": "No departments matching your search criteria were found",
+    "cardiology": "Cardiology",
+    "neurology": "Neurology",
+    "orthopedics": "Orthopedics",
+    "form": {
+      "name": "Department Name",
+      "description": "Description",
+      "head": "Department Head",
+      "location": "Location",
+      "status": "Status",
+      "doctors": "Doctors",
+      "patients": "Patients",
+      "beds": "Beds"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "maintenance": "Under Maintenance"
+    },
+    "delete": {
+      "title": "Delete Department",
+      "confirmation": "Are you sure you want to delete {name}? This action cannot be undone."
+    },
+    "descriptions": {
+      "cardiology": "Specialized in heart and cardiovascular system treatments",
+      "neurology": "Focused on nervous system disorders and treatments",
+      "orthopedics": "Specializing in musculoskeletal system treatments"
+    }
+  },
+"doctors": {
+    "title": "Doctor Management",
+    "subtitle": "Manage doctors and schedules",
+    "new": "New Doctor",
+    "edit": "Edit Doctor",
+    "search": "Search doctors...",
+    "noResults": "No doctors found",
+    "noResultsDesc": "No doctors matching your search criteria were found",
+    "form": {
+      "name": "Name",
+      "specialty": "Specialty",
+      "department": "Department",
+      "qualification": "Qualification",
+      "experience": "Experience",
+      "phone": "Phone",
+      "email": "Email",
+      "schedule": "Schedule",
+      "selectDepartment": "Select Department",
+      "selectDays": "Select Days",
+      "timeRange": "e.g., 9:00 AM - 5:00 PM"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "onLeave": "On Leave"
+    },
+    "stats": {
+      "patients": "Patients",
+      "appointments": "Appointments"
+    },
+    "delete": {
+      "title": "Delete Doctor",
+      "confirmation": "Are you sure you want to delete {name}? This action cannot be undone."
+    },
+    "schedule": {
+      "days": {
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday",
+        "sunday": "Sunday"
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "stats": {
+      "totalPatients": "Total Patients",
+      "appointmentsToday": "Today's Appointments",
+      "medicalRecords": "Medical Records",
+      "totalRevenue": "Total Revenue"
+    },
+    "appointments": {
+      "title": "Today's Appointments",
+      "status": {
+        "upcoming": "Upcoming",
+        "completed": "Completed",
+        "cancelled": "Cancelled",
+        "inProgress": "In Progress"
+      }
+    },
+    "quickActions": {
+      "title": "Quick Actions",
+      "addPatient": "Add Patient",
+      "scheduleAppointment": "Schedule Appointment",
+      "createRecord": "Create Record"
+    },
+    "upcomingTasks": {
+      "title": "Upcoming Tasks",
+      "teamMeeting": "Department Meeting",
+      "labResults": "Review Lab Results",
+      "patientCall": "Patient Follow-up"
+    }
+  }
+}

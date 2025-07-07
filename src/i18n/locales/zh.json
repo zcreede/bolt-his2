@@ -1,0 +1,363 @@
+{
+  "common": {
+    "search": "搜索",
+    "filter": "筛选",
+    "clear": "清除",
+    "edit": "编辑",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "create": "创建",
+    "submit": "提交",
+    "status": "状态",
+    "type": "类型",
+    "date": "日期",
+    "time": "时间",
+    "notes": "备注",
+    "actions": "操作",
+    "viewAll": "查看全部",
+    "download": "下载",
+    "active": "在职",
+    "inactive": "离职",
+    "onLeave": "请假",
+    "upload": {
+      "dropHere": "拖放图片到这里",
+      "clickOrDrop": "点击或拖放图片到这里",
+      "sizeLimit": "图片大小不能超过5MB",
+      "typeError": "请上传图片文件"
+    }
+  },
+  "inpatients": {
+    "title": "住院管理",
+    "subtitle": "管理住院患者和病房分配",
+    "new": "新增住院",
+    "edit": "编辑患者",
+    "search": "搜索住院患者...",
+    "noResults": "未找到住院患者",
+    "noResultsDesc": "没有找到符合搜索条件的住院患者",
+    "status": {
+      "admitted": "在院",
+      "discharged": "已出院",
+      "transferred": "已转科",
+      "critical": "危重"
+    },
+    "admissionType": {
+      "emergency": "急诊",
+      "planned": "计划",
+      "transfer": "转院"
+    },
+    "form": {
+      "patient": "患者",
+      "selectPatient": "选择患者",
+      "admittingDoctor": "主治医生",
+      "selectDoctor": "选择医生",
+      "admissionDate": "入院日期",
+      "admissionTime": "入院时间",
+      "ward": "病区",
+      "selectWard": "选择病区",
+      "bedNumber": "床位号",
+      "diagnosis": "诊断",
+      "expectedStayDuration": "预计住院天数",
+      "notes": "备注"
+    },
+    "actions": {
+      "discharge": "办理出院",
+      "transfer": "转科"
+    },
+    "details": {
+      "expectedStay": "预计住院",
+      "currentStay": "已住院",
+      "days": "天",
+      "diagnosis": "诊断",
+      "age": "岁",
+      "bed": "床",
+      "department": "科室",
+      "treatmentResponse": "治疗反应"
+    }
+  },
+  "queue": {
+    "management": {
+      "title": "排队叫号",
+      "subtitle": "管理患者队列和等候名单",
+      "search": "搜索队列...",
+      "addToQueue": "加入队列",
+      "openDisplay": "打开显示屏"
+    },
+    "display": {
+      "title": "叫号显示屏",
+      "department": "{name}",
+      "nowServing": "正在就诊",
+      "waiting": "等候队列",
+      "pleaseEnter": "请在叫到您的号码时进入诊室",
+      "notice": "请注意您的号码，准备就绪",
+      "normalQueue": "普通就诊",
+      "returnQueue": "复诊队列"
+    },
+    "stats": {
+      "total": "总人数",
+      "waiting": "等候中",
+      "completed": "已完成"
+    },
+    "status": {
+      "waiting": "等候中",
+      "called": "已叫号",
+      "inProgress": "就诊中",
+      "examination": "检查中",
+      "completed": "已完成"
+    },
+    "type": {
+      "normal": "初诊",
+      "return": "复诊"
+    },
+    "list": {
+      "number": "队列号",
+      "patient": "患者",
+      "type": "就诊类型",
+      "doctor": "医生",
+      "status": "状态",
+      "time": "时间",
+      "actions": "操作"
+    }
+  },
+  "nav": {
+    "dashboard": "工作台",
+    "sections": {
+      "outpatient": "门诊业务",
+      "inpatient": "住院业务",
+      "auxiliary": "辅助业务",
+      "system": "系统管理"
+    },
+    "patients": "患者管理",
+    "appointments": "预约挂号",
+    "medicalRecords": "病历管理",
+    "departments": "科室管理",
+    "doctors": "医生管理",
+    "schedules": "排班管理",
+    "billing": "收费管理",
+    "pharmacy": "药房管理",
+    "laboratory": "检验管理",
+    "settings": "系统设置",
+    "logout": "退出登录",
+    "mainMenu": "主菜单",
+    "inpatients": "入院管理",
+    "queue": "排队叫号",
+    "consultation": "门诊接诊",
+    "wards": "病区管理",
+    "beds": "床位管理"
+  },
+"patients": {
+    "title": "患者管理",
+    "subtitle": "管理患者信息和病历记录",
+    "new": "添加患者",
+    "edit": "编辑患者",
+    "search": "按姓名或ID搜索患者...",
+    "noResults": "未找到患者",
+    "noResultsDesc": "没有找到符合搜索条件的患者",
+    "age": "岁",
+    "lastVisit": "最近就诊",
+    "viewDetails": "查看详情",
+    "schedule": "预约",
+    "register": "挂号",
+    "startConsultation": "开始接诊",
+    "gender": {
+      "title": "性别",
+      "male": "男",
+      "female": "女"
+    },
+    "addNew": {
+      "title": "添加患者",
+      "name": "姓名",
+      "gender": "性别",
+      "dateOfBirth": "出生日期",
+      "phone": "联系电话",
+      "email": "电子邮箱",
+      "address": "联系地址",
+      "medicalHistory": "既往病史",
+      "allergies": "过敏史",
+      "uploadImage": "点击或拖放图片到这里",
+      "dropImage": "拖放图片到这里"
+    },
+    "details": {
+      "basicInfo": "基本信息",
+      "medicalInfo": "医疗信息",
+      "upcomingAppointments": "待就诊预约",
+      "recentRecords": "近期病历",
+      "noMedicalHistory": "暂无病史记录",
+      "noAllergies": "暂无过敏记录",
+      "noUpcomingAppointments": "暂无待就诊预约",
+      "noRecentRecords": "暂无近期病历",
+      "with": "就诊医生",
+      "by": "记录医生"
+    },
+    "delete": {
+      "title": "删除患者",
+      "confirmation": "确定要删除{name}的记录吗？此操作无法撤销。"
+    },
+    "registration": {
+      "title": "患者挂号",
+      "today": "当日挂号",
+      "appointment": "预约挂号",
+      "selectDepartment": "选择科室",
+      "availableSlots": "可用号源",
+      "register": "挂号",
+      "makeAppointment": "预约",
+      "noSlots": "暂无可用号源"
+    },
+    "consultation": {
+      "title": "开始就诊",
+      "selectType": "选择就诊类型",
+      "newVisit": {
+        "title": "初诊",
+        "description": "首次就诊"
+      },
+      "returnVisit": {
+        "title": "复诊",
+        "description": "再次就诊"
+      }
+    }
+  },
+  "appointments": {
+    "title": "预约挂号",
+    "subtitle": "管理患者预约和排班",
+    "new": "新增预约",
+    "search": "搜索预约...",
+    "noResults": "未找到预约",
+    "noResultsDesc": "没有找到符合搜索条件的预约",
+    "schedule": {
+      "title": "预约挂号",
+      "selectPatient": "选择患者",
+      "selectDoctor": "选择医生",
+      "appointmentType": {
+        "regular": "普通门诊",
+        "followup": "复诊",
+        "emergency": "急诊"
+      },
+      "addNotes": "添加预约备注..."
+    },
+    "status": {
+      "scheduled": "已预约",
+      "completed": "已完成",
+      "cancelled": "已取消",
+      "inprogress": "就诊中"
+    },
+    "details": {
+      "title": "预约详情",
+      "patient": "患者",
+      "doctor": "医生",
+      "department": "科室",
+      "reason": "就诊原因",
+      "notes": "备注"
+    },
+    "cancel": {
+      "title": "取消预约",
+      "confirmation": "确定要取消这个预约吗？"
+    },
+    "registration": {
+      "title": "挂号",
+      "today": "当日挂号",
+      "advance": "预约挂号",
+      "selectDepartment": "选择科室",
+      "availableSlots": "可用号源",
+      "noSlots": "暂无可用号源",
+      "register": "挂号",
+      "book": "预约"
+    }
+  },
+  "departments": {
+    "title": "科室管理",
+    "subtitle": "管理医院科室和资源",
+    "new": "新增科室",
+    "search": "搜索科室...",
+    "noResults": "未找到科室",
+    "noResultsDesc": "没有找到符合搜索条件的科室",
+    "cardiology": "心内科",
+    "neurology": "神经内科",
+    "orthopedics": "骨科",
+    "form": {
+      "name": "科室名称",
+      "description": "科室描述",
+      "head": "科室主任",
+      "location": "位置",
+      "status": "状态",
+      "doctors": "医生",
+      "patients": "患者",
+      "beds": "床位"
+    },
+    "status": {
+      "active": "运行中",
+      "inactive": "已停用",
+      "maintenance": "维护中"
+    },
+    "delete": {
+      "title": "删除科室",
+      "confirmation": "确定要删除{name}吗？此操作无法撤销。"
+    },
+    "descriptions": {
+      "cardiology": "专注于心脏和心血管系统疾病的诊断与治疗",
+      "neurology": "专注于神经系统疾病的诊断与治疗",
+      "orthopedics": "专注于骨骼、关节和肌肉系统疾病的诊断与治疗"
+    }
+  },
+  "doctors": {
+    "title": "医生管理",
+    "subtitle": "管理医生信息",
+    "new": "新增医生",
+    "edit": "编辑医生",
+    "search": "搜索医生...",
+    "noResults": "未找到医生",
+    "noResultsDesc": "没有找到符合搜索条件的医生",
+    "form": {
+      "name": "姓名",
+      "specialty": "专业",
+      "department": "科室",
+      "qualification": "职称",
+      "experience": "工作年限",
+      "phone": "联系电话",
+      "email": "电子邮箱",
+      "selectDepartment": "选择科室"
+    },
+    "status": {
+      "active": "在职",
+      "inactive": "离职",
+      "onLeave": "请假"
+    },
+    "stats": {
+      "patients": "患者",
+      "appointments": "预约"
+    },
+    "delete": {
+      "title": "删除医生",
+      "confirmation": "确定要删除{name}的记录吗？此操作无法撤销。"
+    }
+  },
+  "dashboard": {
+    "welcome": "欢迎回来",
+    "stats": {
+      "totalPatients": "总患者数",
+      "appointmentsToday": "今日预约",
+      "medicalRecords": "病历记录",
+      "totalRevenue": "总收入"
+    },
+    "appointments": {
+      "title": "今日预约",
+      "status": {
+        "upcoming": "待就诊",
+        "completed": "已完成",
+        "cancelled": "已取消",
+        "inProgress": "就诊中"
+      }
+    },
+    "quickActions": {
+      "title": "快捷操作",
+      "addPatient": "添加患者",
+      "scheduleAppointment": "预约挂号",
+      "createRecord": "创建病历"
+    },
+    "upcomingTasks": {
+      "title": "待办事项",
+      "teamMeeting": "科室会议",
+      "labResults": "检验报告审核",
+      "patientCall": "患者随访"
+    }
+  }
+}
